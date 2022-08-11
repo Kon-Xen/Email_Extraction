@@ -7,14 +7,18 @@ let counter = 0;
 
 function lookforDomain(item) {
 
-    console.log(item);
+   domains = item.split("@");
 
-    if (item.split("softwire.com")) {
-        counter += 1;
     }
 }
 
 
+
+test=  {property:"something else"}
+arrays[i];
+{}
+
+objec.forEach( )
 try {
     const data = fs.readFileSync('./test.txt', 'utf8');
     // let test = data.split(" ");
@@ -22,7 +26,7 @@ try {
     console.log([data.match(pattern)]);
 
     // a) for each of the indices look for "softwire.com "
-    // test.forEach( lookforDomain() );
+     test.forEach( lookforDomain() );
 
     // b) do a regex thingy for "softwire.com"
     // console.log(test);
